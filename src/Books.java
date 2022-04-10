@@ -1,9 +1,10 @@
 //Дочерний класс 1
 public class Books extends Publications {
-    // Поля
+//Поля
     private String book_author;
     int number_pages;
     protected String editor_book;
+
     //Конструктор 1
     public Books(String id1, String book_author, int number_pages, String editor_book) {
         this.id = id1;
@@ -11,9 +12,10 @@ public class Books extends Publications {
         this.number_pages = number_pages;
         this.editor_book = editor_book;
     }
-    // Конструктор 2 (пустой)
+    // Конструктор 2 (без параметров)
     public Books() {
     }
+
     //Переопределение метода number1
     @Override
     public void number1() {

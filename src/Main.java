@@ -4,6 +4,9 @@ public class Main {
         Publications doc1 = new Books ("10", "A.S. Pushkin", 56, "Globus");
         Publications doc2 = new Journal("20", "Murzilka", "ABS");
         Publications doc3 = new Books();
+        Publications doc4 = new Journal();
+
+
 
         System.out.println("***** method 1: number1 from Books *****");
         doc1.number1();

@@ -3,11 +3,15 @@ public class Journal extends Publications {
     protected String journal_name;
     String editor;
     Boolean child;
+// Конструктор 1
     public Journal (String id2, String journal_name, String editor) {
         this.id = id2;
         this.journal_name = journal_name;
         this.editor = editor;
         this.child = true;
+    }
+// Конструктор 2 (без параметров)
+    public Journal() {
     }
 
     @Override
